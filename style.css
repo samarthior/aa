@@ -1,0 +1,19 @@
+#background{
+    background-size: cover;
+    background-image:url("https://freevector-images.s3.amazonaws.com/uploads/vector/preview/39892/39892.png") ;
+}
+
+canvas{
+    animation-name:samarth ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes samarth{
+    from{box-shadow: 1px  1px 25px darkslateblue ;}
+    to{box-shadow: 1px 1px 25px darkorchid;}
+    
+}
+.btn-warning:hover{
+    background-color: greenyellow;
+}
